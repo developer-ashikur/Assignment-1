@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3{
+    font-family: 'Bebas Neue', cursive;
+}
+p, a{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-size: 50px;
+    font-weight: 400;
+    color: #363958;
+}
+p{
+    color: dimgray;
+    padding: 20px 0;
+}
+img{
+    max-width: 100%;
+}
+h2{
+    font-size: 40px;
+    font-weight: 400;
+    color: #363958;
+}
+h4{
+    color: #363958;
+}
+section{
+    margin-bottom: 50px;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.text-center{
+    text-align: center;
+}
+.menu{
+    text-align: right;
+}
+.menu ul{
+    margin-right: 50px;
+}
+.menu ul li{
+    display: inline-block;
+    list-style: none;
+}
+.menu ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 30px 20px;
+}
+.name-highlight{
+    color: #FF8367;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(180deg, #FF8063, #F46060);
+    color: white;
+    padding: 10px 30px;
+    display: inline-block;
+    border-radius: 5px;
+}
+.half-area{
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.project-area{
+    background-color: #F8F9FC;
+    padding: 80px 40px;
+}
+.project-container{
+    padding-top: 40px;
+}
+.project{
+    width: 28%;
+    margin-left: 3%;
+    padding: 1%;
+    background-color: #fff;
+    border-radius: 10px;
+    float: left;
+    box-sizing: border-box;
+}
+.project p{
+    padding: 0;
+}
+.project h4{
+    padding: 10px 0;
+}
+.work{
+    
+
+}
+.work-container{
+    background: linear-gradient(138.38deg, #5D69E9 -7.79%, #4225B6 98.72%);
+    width: 40%;
+    margin: auto;
+    padding: 4%;
+    border-radius: 30px;
+}
+.work-container h1{
+    color: white;
+}
+.left-area{
+    float: left;
+}
+.right-area{
+    float: right;
+}
+.right-area a{
+    margin-top: 15px;
+}
+.contact h3{
+    font-weight: 300;
+}
+.contact h4{
+    font-size: 22px;
+    font-weight: 700;
+    padding: 8px 0;
+}
+.contact img{
+    width: 3%;
+    margin-left: 10px;
+}
+.service{
+    width: 25%;
+    margin-left: 5%;
+    padding: 1%;
+    float: left;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+.service-comtainer{
+    padding: 50px 0;
+}
+#web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#ui{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, lightsalmon);
+    border-image-slice: 1;
+}
+#app{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, purple, tomato);
+    border-image-slice: 1;
+}
